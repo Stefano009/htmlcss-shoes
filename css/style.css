@@ -1,5 +1,73 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common*/
+/* scroll behavior */
+html {
+    scroll-behavior: smooth;
+
+}
+/* /scroll behavior */
+
+body{
+    font-family: "Rubik Mono One", sans-serif;
+}
+
+.wrap{
+    width: 100vw;
+    height: 300vh;
+}
+
+.box{
+    width: 100%;
+    height: calc(100%/3);
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+/* /common */
+
+/* nav */
+nav{
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    right: 20%;
+
+}
+ul>li{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    text-decoration: none;
+    color: #FFF;
+    z-index: 5;
+}
+
+a{
+    padding-left: 7px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    text-align: ;
+}
+
+/* /nav */
+
+/* main */
+
+/* /main */
