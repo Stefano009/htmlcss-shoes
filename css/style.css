@@ -41,6 +41,10 @@ body {
 .green{
     color: green;
 }
+
+h2{
+    text-shadow: 5px 5px black;
+}
 /* /common */
 
 /* nav */
